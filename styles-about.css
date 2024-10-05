@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+}
+
+.logo {
+    color: #F47358;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.navbar input {
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #f9f9f9;
+    padding: 60px 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.hero h4 {
+    color: #333;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    color: #d85c3a;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #F47358; /* Background color as in the image */
+    color: rgb(255, 255, 255); /* White text color */
+    padding: 60px 40px;
+    text-align: left; /* Align text to the left */
+}
+
+footer h2{
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+footer p {
+    font-size: 16px;
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+.footer-content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.footer-links div {
+    width: 23%;
+}
+
+.footer-links h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin: 5px 0;
+}
+
+.footer-links ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.footer-links p {
+    margin-top: 10px;
+}

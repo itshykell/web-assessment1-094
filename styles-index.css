@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+}
+
+.logo {
+    color: #F47358;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.navbar input {
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+
+.hero {
+    text-align: center;
+    background-image: url('image/backgroudhome.jpg');
+    background-size: cover;
+    padding: 200px 0;
+    color: white;
+}
+
+.product-btn {
+    padding: 10px 20px;
+    background-color: #ff6b6b;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.hero h2 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.highlight {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.highlight h2 {
+    color: #F47358;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h3 {
+    color: #F47358;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.card p {
+    color: #666;
+}
+
+.kategori {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.kategori h2 {
+    color: #F47358;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.kategori-item {
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.kategori-item img {
+    width: 1200px;
+    height: 520px;
+    border-radius: 10px;
+}
+
+.kategori-item h3 {
+    color: #F47358;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.kategori-item p {
+    color: #666;
+    margin-top: 10px;
+}
+
+.kategori-item a {
+    display: inline-block;
+    margin-top: 10px;
+    color: white;
+    background-color: #F47358;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.kategori-lainnya {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.kategori-lainnya h2 {
+    color: #F47358;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #F47358; /* Background color as in the image */
+    color: rgb(255, 255, 255); /* White text color */
+    padding: 60px 40px;
+    text-align: left; /* Align text to the left */
+}
+
+footer h2{
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+footer p {
+    font-size: 16px;
+    margin: 10px 0;
+    line-height: 1.5;
+    flex: 0.5;
+}
+
+.footer-content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.footer-links div {
+    width: 23%;
+}
+
+.footer-links h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin: 5px 0;
+}
+
+.footer-links ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.footer-links p {
+    margin-top: 10px;
+}
